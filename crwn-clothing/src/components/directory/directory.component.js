@@ -2,8 +2,6 @@ import './directory.styles.scss';
 import CategoryItem from '../category-item/category-item.component';
 
 const Directory = ({ categories }) => {
-  const butt = '1';
-
   return (
     <div className='directory-container'>
       {categories.map((category) => (
