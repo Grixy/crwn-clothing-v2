@@ -1,13 +1,10 @@
-//Projects/ZtM_React/Crwn/crwn-clothing-v3/crwn-clothing-v2/crwn-clothing
+//My\ Documents/Projects/ZtM_React/Crwn/crwn-clothing-v3/crwn-clothing-v2/crwn-clothing
 
 import { Routes, Route } from 'react-router-dom';
 import Home from './components/routes/home/home.component';
 import Navigation from './components/routes/navigation/navigation.component';
 import Authentication from './components/routes/authentication/authentication.component';
-
-const Shop = () => {
-  return <div>It's shoppin time</div>;
-};
+import Shop from './components/routes/shop/shop.component';
 
 const App = () => {
   return (
